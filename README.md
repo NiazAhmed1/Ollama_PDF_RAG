@@ -1,8 +1,6 @@
-# Ollama_PDF_RAG
+# Ollama PDF RAG with Langchain and Streamlit
 
- Ollama PDF RAG with Langchain and Streamlit
 This project implements PDF Retrieval-Augmented Generation (RAG) using Langchain and Streamlit. It allows users to upload PDF files, select a locally available model through Ollama, and interact with the content of the PDF by querying it in a chat interface. The responses are generated based on the content of the uploaded PDF.
-
 The user interface (UI) is built using Streamlit, making it easy and interactive for users to upload PDFs, select models, and chat with the document.
 
 ## Features
@@ -17,7 +15,7 @@ Python 3.7+
 pip (Python package manager)
 
 
-## Installation
+### Installation
 Clone the repository:
 
 git clone https://github.com/NiazAhmed1/Ollama_PDF_RAG.git
@@ -28,7 +26,7 @@ pip install -r requirements.txt
 
 Set up Ollama: Ensure you have the necessary models available locally in Ollama. This project assumes you have Ollama installed and configured.
 
-Running the Application
+### Running the Application
 
 Navigate to the project directory in your terminal:
 cd path/to/your/project
@@ -42,13 +40,12 @@ Choose a Model: Select one of the locally available models from Ollama.
 
 Ask Questions: Interact with the PDF content by typing your queries in the chat box. The system will retrieve relevant information and provide concise answers.
 
-Example Usage
+### Example Usage
 Upload a PDF document.
 Select an Ollama model from the dropdown menu.
 Enter a query, such as "What is mentioned in section 3?", and the system will respond with the relevant information from the PDF.
-📦 Project Structure
+
+## Project Structure
 app.py: The main Streamlit application file that handles file uploading, model selection, querying, and displaying results.
-requirements.txt: Contains the list of Python libraries needed to run the project.
-temp/: Temporary directory where uploaded PDF files are stored.
-🤝 Contributing
-Feel free to open issues or submit pull requests. Contributions are always welcome!
+requirements.txt: Contains the list of Python libraries needed to run the project. 
+
