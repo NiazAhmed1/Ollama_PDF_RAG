@@ -1,0 +1,9 @@
+streamlit
+pymupdf
+langchain
+langchain_core
+langchain_community
+ollama
+pdfplumber
+pypdf
+chromadb
