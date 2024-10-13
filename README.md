@@ -5,17 +5,19 @@ This project implements PDF Retrieval-Augmented Generation (RAG) using Langchain
 
 The user interface (UI) is built using Streamlit, making it easy and interactive for users to upload PDFs, select models, and chat with the document.
 
-🛠️ Features
+## Features
 PDF Upload: Upload any PDF document, which is displayed below the uploader as a series of images (one image per page).
 Model Selection: Choose from available models in Ollama installed on your local system to process the queries.
 Conversational Interface: Ask questions related to the PDF content, and receive concise, context-aware responses. The interaction is displayed in a chat-like format.
-🚀 Getting Started
+
+## Getting Started
 Prerequisites
 Ensure you have the following installed on your system:
-
 Python 3.7+
 pip (Python package manager)
-Installation
+
+
+## Installation
 Clone the repository:
 
 git clone https://github.com/NiazAhmed1/Ollama_PDF_RAG.git
