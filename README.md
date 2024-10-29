@@ -38,7 +38,7 @@ Ensure you have the following installed on your system:
 
 
 ## Example Usage
-1. **Upload a PDF document**: Start by selecting a PDF document you’d like to explore.
+1. **Upload a PDF document**: Start by browsing a PDF document you’d like to explore.
 2. **Select a Model**: From the dropdown menu, select a model available locally in Ollama that you want to use to query the PDF content.
 3. **Enter a Query**: In the chat box, type a question, such as:
    - **Example 1**: "What is mentioned in section 3?"
