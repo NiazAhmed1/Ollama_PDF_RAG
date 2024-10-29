@@ -22,4 +22,9 @@ Ensure you have the following installed on your system:
 2. Install dependencies from the requirements.txt file
    ```bash
    pip install -r requirements.txt
-   
+ 3. Set up Ollama: Make sure you have the necessary models available locally. This project assumes you have Ollama installed and configured.
+
+### Running the Application
+1. Navigate to the project directory in your terminal
+```bash
+   cd path/to/your/project/Ollama_PDF_RAG
