@@ -19,3 +19,7 @@ Ensure you have the following installed on your system:
    ```bash
    git clone https://github.com/NiazAhmed1/Ollama_PDF_RAG.git
    cd Ollama_PDF_RAG
+2. Install dependencies from the requirements.txt file
+   ```bash
+   pip install -r requirements.txt
+   
