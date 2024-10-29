@@ -26,5 +26,30 @@ Ensure you have the following installed on your system:
 
 ### Running the Application
 1. Navigate to the project directory in your terminal
-```bash
-   cd path/to/your/project/Ollama_PDF_RAG
+      ```bash
+      cd path/to/your/project/Ollama_PDF_RAG
+
+2. Run the Streamlit app
+   ```bash
+   streamlit run app.py
+ 3. Upload a PDF: Use the file uploader to upload your PDF document. The pages of the PDF will be displayed as images.
+ 4. Choose a Model: Select one of the locally available models from Ollama.
+ 5. Ask Questions: Interact with the PDF content by typing your queries in the chat box. The system will retrieve relevant information and provide concise answers.
+
+
+## Example Usage
+1. **Upload a PDF document**: Start by selecting a PDF document you’d like to explore.
+2. **Select a Model**: From the dropdown menu, select a model available locally in Ollama that you want to use to query the PDF content.
+3. **Enter a Query**: In the chat box, type a question, such as:
+   - **Example 1**: "What is mentioned in section 3?"
+   - **Example 2**: "Summarize the main findings of the document."
+   - **Example 3**: "List any key terms introduced in the first chapter."
+
+   The system will respond with relevant information extracted directly from the PDF content.
+
+## Project Structure
+- `app.py`: The main Streamlit application file that handles file uploading, model selection, querying, and displaying results in the chat format.
+- `requirements.txt`: Contains the list of Python libraries needed to run the project, including Langchain, Streamlit, and other dependencies.
+
+This project is designed to make document interaction seamless and user-friendly. Whether for research, document review, or educational purposes, Ollama PDF RAG offers an intuitive way to engage with PDF content.
+
